@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+/* Nav Section  */
+nav {
+  margin: 30px;
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 5rem;
+}
+.nav-lists {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+}
+.logo {
+  height: 8vh;
+}
+
+/* Main Cards  */
+.main-cards {
+  margin-top: 63px;
+}
+.main-card {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.main-img-size {
+  height: 50vh;
+  width: 50vw;
+}
+.main-texts p {
+  margin-top: 30px;
+  color: #444343;
+  font-size: 2rem;
+}
+.main-texts h1 {
+  font-size: 3rem;
+}
+.main-texts .btn {
+  margin-top: 30px;
+  color: #fff;
+  background-color: rgb(0, 127, 200);
+}
+.main-card-2,
+.main-card-3 {
+  margin-top: 30px;
+}
+.main-card-4 {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+.main-card-4 .main-texts {
+  width: 50vw;
+}
+.btn {
+  padding: 8px 12px;
+  background-color: transparent;
+  border: 1px solid #2392fa;
+  color: rgb(35, 146, 250);
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Small Cards Section  */
+
+.small-cards-row-1,
+.small-cards-row-2 {
+  display: flex;
+  margin: 50px 30px;
+}
+.small-icon {
+  height: 12vh;
+}
+.small-cards-row-1 h3,
+p,
+.small-cards-row-2 h3,
+p {
+  margin-top: 10px;
+}
+.samll-card-margin {
+  margin-right: 20px;
+}
+h3 {
+  font-size: 2.5rem;
+}
+.small-cards-text {
+  font-size: 2rem;
+}
+
+/* Flexible & Transparant Pricing Section  */
+.flexible-section {
+  margin-top: 50px;
+  background-color: #2392fa;
+  padding: 0 30px 50px 0;
+}
+.packages-cards {
+  display: flex;
+  justify-content: center;
+}
+.package-card {
+  margin-left: 30px;
+  background-color: #fff;
+  border-radius: 7px;
+}
+li {
+  list-style: none;
+  margin: 0 10px;
+  font-size: 1.8rem;
+  line-height: 25px;
+}
+.flexible-section h4 {
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 7vh;
+  font-size: 3rem;
+}
+.package-tetxs {
+  padding: 10px;
+}
+h5 {
+  font-size: 2.5rem;
+}
+.package-tetxs p {
+  font-size: 1.5rem;
+}
+.fa-regular {
+  font-size: 1.5rem;
+  color: rgb(10, 175, 10);
+  margin-right: 5px;
+}
+.last-text {
+  text-align: center;
+}
+.last-text h2 {
+  font-size: 2.5rem;
+}
+.month {
+  color: #444343;
+  font-size: 2.5rem;
+}
+.btn {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+#black {
+  background: #000;
+  border-radius: 7px;
+}
+.white-text {
+  color: #fff;
+}
+
+/* Review Section  */
+
+.review-head {
+  text-align: center;
+  margin: 30px 30px 0 30px;
+}
+.review-head h1 {
+  font-size: 4rem;
+}
+.review-head p {
+  font-size: 2rem;
+  color: grey;
+}
+.review-section-row-1,
+.review-section-row-2 {
+  display: flex;
+  margin-right: 30px;
+}
+.review-card {
+  margin: 30px 0 0 30px;
+  padding: 10px;
+  box-shadow: 0px 0px 5px 1px rgb(178, 178, 178);
+}
+.review-card p {
+  font-size: 1.7rem;
+}
+.customers-profile {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.customer-name {
+  margin-left: 10px;
+  line-height: 10px;
+}
+.customer-name h4 {
+  font-size: 1.7rem;
+}
+
+/* Quit Worrying About Hosting Service Section  */
+
+.quit-worrying-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  align-items: center;
+  background-color: #2392fa;
+  height: 50vh;
+}
+.quit-worrying-left {
+  width: 50vw;
+}
+.Register-now-btn {
+  border: solid 1px #fff;
+  color: #fff;
+}
+.quit-worrying-left h1 {
+  font-size: 3.5rem;
+  color: #fff;
+}
+.quit-worrying-left p {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* Bottom Section  */
+
+.bottom-section {
+  display: flex;
+  justify-content: center;
+  margin: 30px 50px;
+  gap: 30px;
+}
+.bottom-logo p {
+  font-size: 2rem;
+  line-break: normal;
+}
+.bottom-menu-list h3,
+p {
+  font-size: 2rem;
+}
+.social-icon {
+  display: flex;
+  height: 7vh;
+  gap: 5px;
+}
+.bottom-logo {
+  flex: 5;
+}
+
+@media screen and (min-width: 1200px) {
+  * {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 822px) {
+  nav {
+    flex-direction: column;
+  }
+  .bottom-section {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .quit-worrying-section {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  * {
+    font-size: 50%;
+    overflow-x: hidden;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+  .nav-lists {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .main-card {
+    flex-direction: column;
+  }
+  .setting-img {
+    margin-top: 20px;
+  }
+  .testing {
+    margin-top: 0;
+  }
+  .main-card-4 {
+    flex-direction: column;
+    margin-top: -20px;
+  }
+  .small-cards-row-1,
+  .small-cards-row-2 {
+    flex-direction: column;
+  }
+  .samll-card-margin {
+    margin: 8px;
+  }
+  .flexible-section,
+  .quit-worrying-section {
+    width: 95vw;
+  }
+
+  .review-head {
+    margin-left: 15px;
+  }
+  .packages-cards {
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+  }
+  .bottom-section {
+    flex-direction: column;
+  }
+  .package-card {
+    margin-bottom: 10px;
+    justify-content: center;
+    width: max-content;
+  }
+  .review-card {
+    margin: 8px;
+  }
+  .quit-worrying-section {
+    flex-direction: column;
+    height: max-content;
+    width: 100vw;
+  }
+  .review-section-row-1,
+  .review-section-row-2 {
+    flex-direction: column;
+    margin: 8px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  body {
+    margin-left: 8px;
+    font-size: 40%;
+  }
+  .main-card {
+    flex-direction: column;
+  }
+
+  .main-cards {
+    justify-content: flex-start;
+    margin-top: -20px;
+  }
+  .main-img-size {
+    margin-top: 30px;
+    height: 50vh;
+  }
+  .main-card-4 {
+    flex-direction: column;
+    width: fit-content;
+  }
+  .testing {
+    margin-top: -70px;
+  }
+  .technical,
+  .main-card-4 {
+    margin-top: -60px;
+  }
+  .small-cards-row-1,
+  .small-cards-row-2 {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .samll-card-margin {
+    margin-top: 20px;
+  }
+  .quit-worrying-section {
+    padding: 10px;
+  }
+  .package-card {
+    width: fit-content;
+  }
+  .review-section-row-1,
+  .review-section-row-2 {
+    flex-direction: column;
+    margin-left: 8px;
+  }
+  .social-icon {
+    height: 5vh;
+    margin-left: -1px;
+  }
+  .quit-worrying-section {
+    flex-direction: column;
+  }
+  .bottom-section {
+    margin-left: 8px;
+  }
+}
